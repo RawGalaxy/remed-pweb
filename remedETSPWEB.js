@@ -16,7 +16,7 @@ $(document).ready(function() {
       let oldName = poke.name;
       let newName = oldName[0].toUpperCase() + oldName.slice(1);
       output += `
-      <div class="col-sm-3 mb-4">
+      <div class="col-md-3 mb-4 ">
         <div class="card flex-fill border-primary">
           <div class="card-body shadow d-flex flex-column align-items-center">
             <h5 class="card-title">${newName}</h5>
